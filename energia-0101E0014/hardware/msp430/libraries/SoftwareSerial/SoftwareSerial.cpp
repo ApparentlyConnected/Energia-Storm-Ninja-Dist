@@ -54,7 +54,7 @@ typedef struct _DELAY_TABLE
 } 
 DELAY_TABLE;
 
-#if F_CPU == 16000000L
+#if F_CPU == 8000000L
 
 //formula is roughly rxintra=rxstop=tx = F_CPU / baud / 3 - 5/3
 //    so, delay = 16000000 / 3 / baud - 5/3
